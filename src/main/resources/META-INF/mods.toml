@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="MIT"
+issueTrackerURL="https://github.com/your-repo/issues"
+showAsResourcePack=false
+
+[[mods]]
+modId="mmocraft"
+version="1.0.0.0"
+displayName="MMOCraft"
+updateJSONURL="https://your-update-url"
+displayURL="https://your-display-url"
+logoFile="logo.png"
+credits="Developed by Raeen"
+authors="Raeen"
+description='''
+  This mod replicates the features of Perfect World International in Minecraft.
+  '''
+displayTest="MATCH_VERSION"
+
+[[dependencies.mmocraft]]
+modId="forge"
+mandatory=true
+versionRange="[46,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mmocraft]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20]"
+ordering="NONE"
+side="BOTH"
